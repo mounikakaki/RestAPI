@@ -1,0 +1,56 @@
+{
+    "loanApplicantIds": [
+        {
+            "customerId": "customercode"
+        },
+        {"customerId":""}
+    ],
+    "productCode": "productCode_replace",
+    "loanRequestAmount": {
+        "amount": 500000,
+        "currency": "EUR"
+    },
+    "customerContributionAmount": {
+        "amount": 10000,
+        "currency": "EUR"
+    },
+    "loanStartDate": "2020-07-09",
+    "loanTerm": {
+        "calendarPeriod": "MONTH",
+        "value": 12
+    },
+    "repaymentFrequency": "MONTHLY",
+    "moratoriumType": "PRINCINT",
+    "moratoriumPeriod": {
+        "moratoriumFrequency": "MONTHLY",
+        "value": 2
+    },
+    "balloonPaymentAmount": {
+        "amount": 0,
+        "currency": "EUR"
+    },
+    "customerInterestMargin": 1,
+    "repaymentAccount": "02020YBILL100",
+    "feeCollectionAccount": "02020YBILL100",
+    "chargeDetails": [
+        {
+            "chargeDescription": "AA",
+            "chargeAmount": {
+                "amount": 0,
+                "currency": "EUR"
+            }
+        }
+    ],
+    "waiveCharge": false,
+    "disbursementDetails": [
+        {
+            "disbursementDate": "2020-07-09",
+            "disbursementAmount": {
+                "amount": 490000,
+                "currency": "EUR"
+            },
+            "disbursementBeneficiaryId": "",
+            "disbursementBeneficiaryAccount": "02020YBILL100"
+        }
+    ]
+}
